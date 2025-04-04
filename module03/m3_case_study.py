@@ -1,4 +1,14 @@
-# Define the SuperClass vehivle
+"""
+Name: Rosa Turner
+Course: SDEV 220 - 51P
+Module: 03
+Instructor: Gabriel Haynie
+Description: This program defines a vehicle superclass and an
+             Automobile subclass. It collects user input and
+             displays vehicle details.
+"""
+
+# Define the SuperClass vehicle
 class Vehicle:
     def __init__(self, vehicle_type):
         self.vehicle_type = vehicle_type
